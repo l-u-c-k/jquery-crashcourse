@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #readyDemo {
+        font-size: 30px;
+        color: green;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("h2").css("color", "violet");
+        $("a[target_self]").css("color", "green");
+      });
+    </script>
+    <title>JQuery crashcourse</title>
+  </head>
+  <body>
+    <header>
+      <h1>jquery crash course</h1>
+    </header>
+    <h2>Heading h1</h2>
+    <div id="readyDemo">hello lakshmi</div>
+    <!-- attribute selectors -->
+    <a href="https://google.com" target="_blank">Google blank</a>
+    <a href="google.com" target="_self">Google</a>
+    <p>List 1:</p>
+    <ul id="item-list">
+      <li id="first-li">
+        <a href="https://google.com">Outside</a>
+        <div><a id="inside-a-div">Inside</a></div>
+      </li>
+      <li>Milk</li>
+      <li>Tea</li>
+    </ul>
+  </body>
+</html>

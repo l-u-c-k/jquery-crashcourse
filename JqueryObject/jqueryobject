@@ -1,0 +1,3 @@
+1)jQuery(<code>):It is a jquery function
+2)$(<code>):It is also an alternative name of jquery function
+3)$(document):it is a function that usually takes a single argument ex :document in this example

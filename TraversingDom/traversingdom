@@ -1,0 +1,4 @@
+1)it is nothing but walking through the dom
+2)with query selectors we make initial selection and then move using traversing functions
+3)function are:
+find,children,closest,parent,next,prev,siblings,first,last

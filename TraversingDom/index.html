@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #readyDemo {
+        font-size: 30px;
+        color: green;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+      //here ready is a function
+      //it takes in a parametr which is also called as another function
+      // $(document).ready(function(){
+      //     console.log("Document is ready....")
+      // })
+      console.log("line number 36");
+      $(document).ready(function () {
+        $("button").click(function () {
+          //   $("#item-list").find("a").css("color", "red");
+          //   $("#first-li").children("a").css("color", "red");
+          //   $("#first-li").closest("a").css("color", "red");
+          //   $("#first-li").next().css("border", "40px solid black");
+          //   $("#item-list li:last").prev().css("border", "10px solid black");
+          //   $("#first-li").siblings().css("border", "1px solid black");
+          //   $("#item-list li:last").siblings().css("border", "1px solid black");
+        });
+      });
+    </script>
+    <title>JQuery crashcourse</title>
+  </head>
+  <body>
+    <header>
+      <h1>jquery crash course</h1>
+    </header>
+    <div id="readyDemo">hello lakshmi</div>
+    <p>List 1:</p>
+    <a href="https://google.com">Outside</a>
+
+    <ul id="item-list">
+      <li id="first-li">
+        <a href="https://google.com">Outside</a>
+        <div><a id="inside-a-div">Inside</a></div>
+      </li>
+      <li>Milk</li>
+      <li>Tea</li>
+    </ul>
+    <button>Click</button>
+  </body>
+</html>
